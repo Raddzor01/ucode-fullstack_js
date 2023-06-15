@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>t02</title>
+</head>
+
+<body>
+    <div class="grid-container">
+        <h1>Handbook</h1>
+        <h2>HTML</h2>
+        <div class="grid-item">
+            <b>&lt;h1&gt;</b>
+            <br>
+            <br>
+            <p>The h1 to h6 tages are used to define HTML headings</p>
+            <br>
+            <code>&lt;h1&gt;Title&lt;/h1&gt;</code>
+            <br>
+            <h1><b>Title</b></h1>
+        </div>
+        <div class="grid-item">
+            <b>&lt;table&gt;</b>
+            <br>
+            <br>
+            <p>defines an HTML table</p>
+            <br>
+            <code>&lt;table&gt;&lt;/table&gt;</code>
+            <br>
+            <br>
+            <table>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                </tr>
+                <tr>
+                    <td>Peter</td>
+                    <td>Griffin</td>
+                </tr>
+                <tr>
+                    <td>Lois</td>
+                    <td>Griffin</td>
+                </tr>
+            </table>
+        </div>
+        <div class="grid-item">
+            <b>&lt;hr&gt;</b>
+            <br>
+            <br>
+            <p>draws a horizontal line</p>
+            <br>
+            <code>&lt;hr&gt;</code>
+            <br>
+            <hr>
+            <p>London is the capital of Great Britain</p>
+            <hr>
+        </div>
+        <div class="grid-item">
+            <b>&lt;input&gt;</b>
+            <br>
+            <br>
+            <p>Designed to create text fields, various buttons, radio buttons and etc.</p>
+            <br>
+            <code>&lt;input type="text"&gt;</code>
+            <br>
+            <br>
+            <b>Your credit card:</b>
+            <br>
+            <input type="text">
+            <br>
+            <br>
+        </div>
+        <div class="grid-item">
+            <b>&lt;button&gt;</b>
+            <br>
+            <br>
+            <p>Clickable button.</p>
+            <br>
+            <code>&lt;button&gt;Button&lt;/button&gt;</code>
+            <br>
+            <br>
+            <button>Button</button>
+            <br>
+        </div>
+        <h2>CSS</h2>
+        <div class="grid-item">
+            <b>background</b>
+            <br>
+            <br>
+            <p>specifies the background af an element</p>
+            <br>
+            <code>background: [];</code>
+            <br>
+            <br>
+            <div style="background: crimson;">
+                <br>
+                <p>Text</p>
+                <br>
+            </div>
+            <br>
+        </div>
+        <div class="grid-item">
+            <b>opacity</b>
+            <br>
+            <br>
+            <p>specifies the opacity/transparency of an element</p>
+            <br>
+            <code>opacity: 0.8;</code>
+            <br>
+            <br>
+            <div style="width: 40px; height: 20px; background-color: green; opacity: 1;"></div>
+            <div style="width: 40px; height: 20px; background-color: green; opacity: 0.8;"></div>
+            <div style="width: 40px; height: 20px; background-color: green; opacity: 0.6;"></div>
+            <div style="width: 40px; height: 20px; background-color: green; opacity: 0.4;"></div>
+            <br>
+        </div>
+        <div class="grid-item">
+            <b>line-height</b>
+            <br>
+            <br>
+            <p>specifies the height of a line</p>
+            <br>
+            <code>line-height: 1.5;</code>
+            <br>
+            <br>
+            Lorem ipsum dolor.
+            <br>
+            <br>
+            Lorem ipsum dolor.
+            <br>
+        </div>
+        <div class="grid-item">
+            <b>text-transform</b>
+            <br>
+            <br>
+            <p>controls the capitalization of text</p>
+            <br>
+            <code>text-transform: uppercase;</code>
+            <br>
+            <br>
+            LOREM Ipsum Dolor Sit AMET,
+            CONSECTETUR adipisicing elit. VITAE,
+            DOLORE.
+            <br>
+            <br>
+        </div>
+        <div class="grid-item">
+            <b>border</b>
+            <br>
+            <br>
+            <p>specifies the style of the outline</p>
+            <br>
+            <code>border-bottom:2px solid #666;</code>
+            <br>
+            <br>
+            <div style="width: 50px; height: 50px; background-color: #d3d3d3; border-bottom: 2px solid red;">
+                <br>
+            </div>
+        </div>
+        <div class="grid-item">
+            <b>font-size</b>
+            <br>
+            <br>
+            <p>specifies the font size of the item. %,px,rem,inherit</p>
+            <br>
+            <code>font-size:24px;</code>
+            <br>
+            <br>
+            <p style="font-size:24px">
+                LOREM Ipsum Dolor Sit AMET,
+                CONSECTETUR adipisicing elit. VITAE,
+                DOLORE.</p>
+            <br>
+        </div>
+        <h2>PROTOCOLS</h2>
+        <div class="grid-item">
+            <b>HTTPS methods</b>
+            <br>
+            <br>
+            <p>GET - use this type of requests to retrieve resource
+                representation/information only ~ and not to modify it in any
+                way</p>
+            <br>
+            <p>POST - used to create a new resource into the collection of resources</p>
+            <br>
+            <p>PUT - use it primarily to update existing resource (if the resource
+                does not exist then API may decide to create a new resource or
+                not)</p>
+            <br>
+            <p>DELETE - used to delete resources (identified by the Request-URI)</p>
+            <br>
+            <p>PATCH - HTTP PATCH requests are to make partial update on a resource</p>
+        </div>
+        <div class="grid-item">
+            <b>HTTP status code</b>
+            <br>
+            <br>
+            1xx Informational
+            <br>
+            example: 100 Continue
+            <br>
+            <br>
+            2xx: Success
+            <br>
+            example: 201 Created
+            <br>
+            <br>
+            3xx: Redirection.
+            <br>
+            example: 301 Moved Permanently
+            <br>
+            <br>
+            4xx: Client Error
+            <br>
+            example: 404 Not Found
+            <br>
+            <br>
+            5xx Server Error
+            <br>
+            example: 500 Internal Server Error
+        </div>
+        <div class="grid-item">
+            <b>DNS list by types</b>
+            <br>
+            <br>
+            DNS list by types
+            A - (address record) - specifies IP address (IPv4) for given host. A records are used for conversion of
+            domain names to
+            corresponding IP addresses
+            <br>
+            <br>
+            AAAA (IPv6 address record) - specifies IPv6 address for given host. So it works the same way as the A
+            record and the difference is the type of IP address
+            <br>
+            <br>
+            CNAME (canonical name record) - specifies a domain name that has to be queried in order to resolve the
+            original DNS query. Therefore CNAME records are used for creating aliases of domain names. CNAME records
+            are truly useful when we want to alias our domain to an external domain. In other cases we can remove
+            CNAME records and replace them with A records and even decrease performance overhead
+            <br>
+            <br>
+            HINFO (Host Information records) - used to acquire general information about a host. The record
+            specifies type of CPU and OS. The HINFO record data provides the possibility to use operating system
+            specific protocols when two hosts want to communicate. For security reasons the HINFO records are not
+            typically used on public servers
+            <br>
+            <br>
+            ISDN (Integrated Services Digital Network records) - specifies ISDN address for a host. An ISDN address
+            is a telephone number that consists of a country code, a national destination code, a ISDN Subscriber
+            number and, optionally, a ISDN subaddress. The function of the record is only variation of the A
+            resource record function
+            <br>
+            <br>
+            MX (Mail exchanger record) - specifies a mail exchange server for a DNS domain name. The information is
+            used by Simple Mail Transfer Protocol (SMTP) to route emails to proper hosts. Typically, there are more
+            than one mail exchange server for a DNS domain and each of them have set priority
+            <br>
+            <br>
+            NS (name server) - specifies an authoritative name server for given host
+            <br>
+            <br>
+            PTR (Reverse-lookup Pointer records) - As opposed to forward DNS resolution (A and AAAA DNS records),
+            the PTR record is used to look up domain names based on an IP address
+            SOA (Start of Authority records) - The record specifies core information about a DNS zone, including the
+            primary name server, the email of the domain administrator, the domain serial number, and several timers
+            relating to refreshing the zone
+            <br>
+            <br>
+            TXT (Text records) - The text record can hold arbitrary non- formatted text string. Typically, the
+            record is used by Sender Policy Framework (SPF) to prevent fake emails to appear to be sent by you
+            <br>
+            <br>
+        </div>
+        <div class="grid-item">
+            <b>Identifying google's IP</b>
+            <br>
+            <br>
+            To identify google.com IP, follow the next steps:
+            <br>
+            <br>
+            1. open Terminal
+            <br>
+            <br>
+            2. paste and run the command nslookup google.com
+            <br>
+            <br>
+            As result, you will receive "name" and "address": Name: google.com.ua
+            Address: 216.58.215.99
+            Repeat steps 1 and 2 to identify google.com.ua IP
+            <br>
+            <br>
+        </div>
+</body>
+
+</html>

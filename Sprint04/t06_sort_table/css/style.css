@@ -1,0 +1,35 @@
+#notification {
+  border-radius: 20px;
+  background-color: #808080;
+  width: 250px;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+
+.table {
+  margin: 0 auto;
+  width: 300px;
+  border: 3px solid black;
+}
+
+th {
+  width: 50px;
+  height: 40px;
+  background-color: red;
+}
+
+th:hover {
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.575);
+  color: rgba(0, 0, 0, 0.822);
+}
+
+td {
+  padding: 10px 15px;
+  text-align: center;
+  width: 50px;
+  background-color: #d3d3d3;
+}

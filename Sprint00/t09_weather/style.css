@@ -1,0 +1,42 @@
+.weather-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 3px gray;
+}
+
+img {
+    width: 100px;
+}
+
+span
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.date {
+    font-weight: 700;
+    font-size: 1.5em;
+    background-color: #4296b3;
+    color: white;
+}
+
+.temperature {
+    font-weight: 400;
+    font-size: 2em;
+}

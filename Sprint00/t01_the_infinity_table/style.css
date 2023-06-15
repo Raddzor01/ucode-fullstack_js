@@ -1,0 +1,49 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    text-align: center;
+}
+
+thead tr th {
+    background-color: black;
+    color: #fff;
+}
+
+tr td {
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+
+img {
+    height: 120px;
+    width: 120px;
+    border-radius: 20%;
+}
+
+.soul_stone {
+    background-color: #d59146;
+}
+
+.time_stone {
+    background-color: #0d7f19;
+}
+
+.space_stone {
+    background-color: #035990;
+}
+
+.mind_stone {
+    background-color: #fffd41;
+}
+
+.reality_stone {
+    background-color: #c02931;
+}
+
+.power_stone {
+    background-color: #8177b4;
+}

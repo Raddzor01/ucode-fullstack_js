@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>UmiUmi</title>
+</head>
+
+<body>
+    <header>
+        <div class="main-header">
+            <img src="assets/images/silly_cat.jpg" alt="silly_cat" width="68" height="68">
+            <h2><span class="colored-letter">U</span>mi<span class="colored-letter">U</span>mi</h2>
+            <h4><a href="" class="nav-link">About</a></h4>
+            <h4><a href="" class="nav-link">Service</a></h4>
+            <h4><a href="" class="nav-link">Contacts</a></h4>
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="Search...">
+                <button type="submit" class="searchButton">
+                    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                        <title>Search</title>
+                        <path stroke-width="32" stroke-miterlimit="10" stroke="currentColor" fill="none"
+                            d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"></path>
+                        <path d="M338.29 338.29L448 448" stroke-width="32" stroke-miterlimit="10" stroke-linecap="round"
+                            stroke="currentColor" fill="none"></path>
+                    </svg>
+                </button>
+            </div>
+            <label class="phone">Phone: +380123456789</label>
+        </div>
+        <nav>
+            <a href="./index.html" class="nav-link">Categories</a> / <a href="./index.html" class="nav-link">Touhou</a>
+            / <a href="./index.html" class="nav-link">Plush</a>
+        </nav>
+    </header>
+    <div class="product">
+        <div class="product-img">
+            <img src="assets/images/marisa.jpg" alt="marisa">
+        </div>
+        <div class="product-about">
+            <div>
+                <h2>Touhou Plush Series Marisa Kirisame</h2>
+                <p class="product-price">300$</p>
+                <p class="nbr-of-product">Available: 32</p>
+            </div>
+            <div class="buy-buttons">
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="10" cy="20.5" r="1" />
+                        <circle cx="18" cy="20.5" r="1" />
+                        <path d="M2.5 2.5h3l2.7 12.4a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6l1.6-8.4H7.1" />
+                    </svg>Add to Cart</button>
+            </div>
+            <div class="product-info">
+                <p><b>About this product</b></p>
+                <table>
+                    <tr>
+                        <td>Release Date</td>
+                        <td>Oct-2012</td>
+                    </tr>
+                    <tr>
+                        <td>Series Title</td>
+                        <td><a href="" class="nav-link">Touhou Project</a></td>
+                    </tr>
+                    <tr>
+                        <td>Character Name</td>
+                        <td><a href="" class="nav-link">Marisa Kirisame</a></td>
+                    </tr>
+                    <tr>
+                        <td>Product Line</td>
+                        <td><a href="" class="nav-link">Touhou Plush Series</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="comments">
+        <h2>Comments: 2</h2>
+        <form action="/form/submit" method="POST" class="user-comment">
+            <legend>Your comment</legend>
+            <textarea class="comment-textbox" placeholder="Type your comment here."></textarea>
+            <br>
+            <input type="submit" name="submit" value="Send">
+        </form>
+        <div class="comment">
+            <img src="assets/images/winnie-the-pooh.jpg" alt="winnie-the-pooh">
+            <label id="name">Bing Chilling</label><br>
+            <hr>
+            <label id="comment">
+                早上好中国
+                现在我有冰激淋 我很喜欢冰激淋
+                但是《速度与激情9》比冰激淋
+            </label>
+        </div>
+        <div class="comment">
+            <img src="assets/images/jhon-china.jpeg" alt="jhon-china">
+            <label id="name">Jhon China</label><br>
+            <hr>
+            <label id="comment">
+                Best expirience of my life.
+            </label>
+        </div>
+    </div>
+    <footer>
+        <div>Copyright &#169; 2023 | UmiUmi | Mankind is dead</div>
+        <div>Terms of Service | Privacy Policy</div>
+    </footer>
+</body>
+
+</html>

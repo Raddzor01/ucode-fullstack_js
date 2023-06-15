@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  rotate: 90deg;
+  margin: 10px;
+  cursor: pointer;
+  position: absolute;
+  transform: rotate(45deg);
+  border: 2px dashed black;
+}
+
+.block {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.block.draggable {
+  cursor: move;
+  border: none;
+  border: 0px;
+}
+
+#block1 {
+  background-color: yellow;
+  top: 100px;
+  left: 100px;
+}
+
+#block2 {
+  background-color: seagreen;
+  top: 250px;
+  left: 50px;
+}
+
+#block3 {
+  background-color: palevioletred;
+  top: 350px;
+  left: 150px;
+}
+
+#block4 {
+  background-color: blueviolet;
+  top: 100px;
+  left: 400px;
+}
+
+#block5 {
+  background-color: blue;
+  top: 200px;
+  left: 250px;
+}
+
+#block6 {
+  background-color: crimson;
+  top: 350px;
+  left: 400px;
+}

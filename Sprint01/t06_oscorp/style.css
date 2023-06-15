@@ -1,0 +1,359 @@
+html,
+body {
+    height: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    margin-left: -25px;
+    list-style-type: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+}
+
+.options {
+    width: 250px;
+    border-right: 1px solid #c7c7c7;
+}
+
+.main-header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.main-catalog {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    gap: 1em;
+}
+
+.grid-item {
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    border: 0.5px solid #c7c7c7;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.grid-item .buy-buttons {
+    width: 120%;
+}
+
+.grid-item button {
+    width: 200%;
+}
+
+
+
+.grid-item .product-img {
+    width: calc(1px * 20%);
+    height: 300px;
+}
+
+.grid-item .product-info {
+    width: 200px;
+    height: calc(1px * 50%);
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+nav {
+    padding: 10px;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+footer {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    border-top: 1px solid #c7c7c7;
+}
+
+footer div:nth-child(1) {
+    text-align: left;
+}
+
+footer div:nth-child(2) {
+    text-align: right;
+}
+
+header h2 {
+    background-image: linear-gradient(to right bottom, white, #797979); /* Измените градиент на желаемый */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 5%;
+}
+
+.colored-letter {
+    background-image: linear-gradient(to right bottom, white, #f27e36); /* Измените градиент на желаемый */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header h4 {
+    margin-right: 5%;
+}
+
+header .phone {
+    margin-left: 10%;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.search {
+    width: 30%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 1px solid #c7c7c7;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.searchButton {
+    width: 40px;
+    height: 32px;
+    border: 1px solid #f27e36;
+    background: #f27e36;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.product {
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 50%;
+    height: 80%;
+    border: 0.5px solid #c7c7c7;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+
+.product-img {
+    width: calc(2px * 40%);
+    height: calc(2px * 90%);
+}
+
+.product-img img {
+    width: 90%;
+    height: 90%;
+}
+
+.main-catalog .product-about {
+    margin-top: -30px;
+    width: 900px;
+    height: calc(2px * 80%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product-about * {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.product-about .nbr-of-product {
+    font-size: small;
+}
+
+.product-price {
+    color: #f27e36;
+    /* margin-top: -10px; */
+    font-size: 24px;
+}
+
+.product-about .product-price {
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+.product-about .buy-buttons {
+    width: 100%;
+    display: flex;
+}
+
+.product-about .buy-buttons * {
+    margin: 5px;
+}
+
+.buy-buttons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 50px;
+    color: white;
+    border: 1px solid #f27e36;
+    background: #f27e36;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.buy-buttons .bookmark {
+    border: 1px solid #c7c7c7;
+    color: black;
+    background-color: #eeeeee;
+}
+
+.product-about .buy-buttons select {
+    width: 20%;
+    height: 50px;
+    margin-bottom: 18px;
+    border: 0.5px solid #c7c7c7;
+    background-color: white;
+}
+
+table {
+    border-spacing: 10px
+}
+
+.product-info p {
+    margin-left: 10px;
+}
+
+.comments {
+    display: grid;
+    border-radius: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    border: 0.5px solid #c7c7c7;
+    margin-left: 20%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 54%;
+    height: 20%;
+}
+
+.comments h2 {
+    margin: 20px;
+}
+
+.user-comment {
+    margin: 20px;
+}
+
+.comment-textbox {
+    width: 90%;
+    height: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.comment {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    margin-top: 25px;
+    vertical-align: middle;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.comment img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.comment #comment {
+    width: 90%;
+    color: #083d3b;
+    font-weight: 200;
+    font-size: 20px;
+    /* margin-top: 25px; */
+    margin-bottom: 15px;
+    grid-column: 1 / span 2;
+}
+
+.comment #name {
+    color: #083d3b;
+    font-weight:bold;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.price-range {
+    display: grid;
+    grid-template-rows: 1fr auto; /* Размеры строк */
+    grid-template-areas:
+      "item1"
+      "item2 item3";
+    margin-bottom: 20px;
+}
+
+.slider-width {
+    grid-area: item1;
+    height: 1px;
+    background-color: black;
+    width: 180px;
+}
+
+.slider-width::-webkit-slider-thumb {
+    appearance: none;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: #f27e36;
+    border-color: #f27e36;
+}
+
+.slider-width::-moz-range-thumb {
+    appearance: none;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: #f27e36;
+    border-color: #f27e36;
+}
+ 
+#max-price {
+    grid-area: item3;
+    margin-top: 10px;
+    margin-left: -50px;
+}
+
+#min-price {
+    grid-area: item2;
+    margin-top: 10px;
+    margin-left: -200px;
+    margin-right: 100px;
+}

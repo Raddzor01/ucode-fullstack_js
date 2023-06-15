@@ -1,0 +1,134 @@
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(100, 1fr);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.grid>img:nth-child(1) {
+    grid-column: 1 / span 44;
+}
+
+.grid>img:nth-child(2) {
+    grid-column: 46 / span 55;
+}
+
+.grid>img:nth-child(3) {
+    grid-column: 1 / span 39;
+}
+
+.grid>img:nth-child(4) {
+    grid-column: 41 / span 32;
+}
+
+.grid>img:nth-child(5) {
+    grid-column: 74 / span 27;
+}
+
+.grid>img:nth-child(6) {
+    grid-column: 1 / span 19;
+}
+
+.grid>img:nth-child(7) {
+    grid-column: 21 / span 28;
+}
+
+.grid>img:nth-child(8) {
+    grid-column: 54 / span 14;
+}
+
+.grid>img:nth-child(9) {
+    grid-column: 69 / span 32;
+}
+
+@media only screen and (max-width: 1366px) {
+    .grid>img:nth-child(1) {
+        grid-column: 1 / span 72;
+    }
+
+    .grid>img:nth-child(2) {
+        grid-column: 1 / span 87;
+    }
+
+    .grid>img:nth-child(3) {
+        grid-column: 1 / span 67;
+    }
+
+    .grid>img:nth-child(4) {
+        grid-column: 1 / span 54;
+    }
+
+    .grid>img:nth-child(5) {
+        grid-column: 55 / span 46;
+    }
+
+    .grid>img:nth-child(6) {
+        grid-column: 1 / span 33;
+    }
+
+    .grid>img:nth-child(7) {
+        grid-column: 34 / span 49;
+    }
+
+    .grid>img:nth-child(8) {
+        grid-column: 1 / span 24;
+    }
+
+    .grid>img:nth-child(9) {
+        grid-column: 25 / span 56;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .grid>img:nth-child(1) {
+        grid-column: 1 / span 78;
+    }
+
+    .grid>img:nth-child(2) {
+        grid-column: 1 / span 87;
+    }
+
+    .grid>img:nth-child(3) {
+        grid-column: 1 / span 76;
+    }
+
+    .grid>img:nth-child(4) {
+        grid-column: 1 / span 61;
+        grid-row: 4;
+    }
+
+    .grid>img:nth-child(5) {
+        grid-column: 1 / span 52;
+        grid-row: 5;
+    }
+
+    .grid>img:nth-child(6) {
+        grid-column: 62 / span 39;
+        grid-row: 4 / 6;
+    }
+
+    .grid>img:nth-child(7) {
+        grid-column: 1 / span 55;
+    }
+
+    .grid>img:nth-child(8) {
+        grid-column: 56 / span 28;
+    }
+
+    .grid>img:nth-child(9) {
+        grid-column: 1 / span 63;
+    }
+}

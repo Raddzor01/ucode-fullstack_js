@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>t05</title>
+</head>
+
+<body>
+    <h1>Settings</h1>
+    <div class="grid-container">
+        <div class="main">
+            <div class="grid-item">
+                <p>Typeface</p>
+                <select class="select-font">
+                    <option value="acunim">Acunim Pro</option>
+                    <option value="c-sans">Comic Sans</option>
+                    <option value="times-new-roman">Times New Roman</option>
+                </select>
+            </div>
+            <div class="grid-item">
+                <p>Dark UI</p>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="grid-item">
+                <p>Weight</p>
+                <div class="font-weight"></div>
+                <label class="font-check"><input type="checkbox" name="weight" id="regular" checked>Regular</label>
+                <label class="font-check"><input type="checkbox" name="weight" id="bold">Bold</label>
+            </div>
+            <div class="grid-item">
+                <p>Color</p>
+                <input type="checkbox" name="color-blue">
+                <input type="checkbox" name="color-green">
+                <input type="checkbox" name="color-pink">
+                <input type="checkbox" name="color-yellow">
+                <input type="checkbox" name="color-orange">
+            </div>
+            <div class="grid-item">
+                <p>Size</p>
+                <input class="slider-width" type="range" min="0" max="10" step="1" value="0">
+                <div id="little-a">A</div>
+                <div id="big-a">A</div>
+            </div>
+        </div>
+        <div class="menu-icons">
+            <div>
+                <img src="assets/images/artistic-brush.png" alt="artistic-brush">
+            </div>
+            <div>
+                <img src="assets/images/user-icon.png" alt="user-icon">
+            </div>
+            <div>
+                <img src="assets/images/sms-speech-bubble.png" alt="sms-speech-bubble">
+            </div>
+            <div>
+                <img src="assets/images/computer-screen.png" alt="computer-screen">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

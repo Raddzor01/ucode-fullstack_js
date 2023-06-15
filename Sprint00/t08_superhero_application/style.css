@@ -1,0 +1,8 @@
+form {
+    padding: 20px;
+    border: 2px solid gray;
+}
+
+fieldset * {
+    margin: 1px;
+}

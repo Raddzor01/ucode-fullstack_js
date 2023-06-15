@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    height: 2em;
+}
+
+.search-bar * {
+    padding: 0px 10px;
+    color: green;
+}
+
+.search-bar *:hover {
+    color: red;
+}
+
+.search-bar input {
+    width: 100%;
+}

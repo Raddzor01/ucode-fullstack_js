@@ -1,0 +1,36 @@
+.city {
+  background-color: rgb(0, 81, 255);
+  width: 97%;
+  padding: 15px;
+  border-radius: 15px 15px 0 0;
+  color: white;
+}
+
+.date {
+  font-weight: bold;
+}
+
+#forecast {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+}
+
+.day {
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  margin: 0;
+}
+
+.day img {
+  width: 120px;
+  height: 120px;
+  border-top: 1px solid rgb(39, 241, 255);
+}
+
+.day p {
+  font-size: 15px;
+}

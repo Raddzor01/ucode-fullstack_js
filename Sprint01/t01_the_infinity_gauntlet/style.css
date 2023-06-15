@@ -1,0 +1,11 @@
+.gauntlet {
+    width: 300px;
+}
+
+.gauntlet:hover ~ .man:nth-child(2n - 1) {
+    visibility: hidden;
+}
+
+.man {
+    width: 100px;
+}

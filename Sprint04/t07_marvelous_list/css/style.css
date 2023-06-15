@@ -1,0 +1,102 @@
+body {
+  text-align: center;
+  justify-content: center;
+}
+
+#cont {
+  display: flex;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  overflow: hidden;
+  border: none;
+  width: 80%;
+  margin-left: 10%;
+}
+
+h2 {
+  margin-left: -10px;
+}
+
+.actor {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: #0c87d4;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#list {
+  width: 20%;
+  margin: 20px;
+  padding: 10px;
+  color: #fff;
+  border-right: 1px solid #ffffff;
+}
+
+#list ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+#list li {
+  margin-bottom: 10px;
+}
+
+.but {
+  width: 100%;
+  padding: 10px;
+  color: black;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  background-color: #eeeeee;
+  border-left: 5px solid #eeeeee;
+}
+
+.but:hover,
+.but.active {
+  border-left: 5px solid blue;
+}
+
+#dets {
+  flex-grow: 1;
+  padding: 20px;
+  color: #333;
+  text-align: left;
+}
+
+.content {
+  display: flex;
+}
+
+.imge {
+  flex: 0 0 300px;
+  width: 20%;
+  float: right;
+}
+
+img {
+  width: 300px;
+  height: 100%;
+}
+
+.descript {
+  margin-top: 40px;
+  margin-right: 4%;
+}
+
+#dets h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 24px;
+  padding: 10px;
+}
+
+#dets p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}

@@ -1,0 +1,46 @@
+header {
+    text-align: center;
+}
+
+.flex-container {
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.flex-container p {
+    font-size: x-large;
+    text-align: center;
+}
+
+.flex-item {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.hidden {
+    display: none !important;
+}
+
+img {
+    width: 400px;
+    height: 600px;
+}
+
+input[type='button'] {
+    text-align: center;
+}
+
+button, input {
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    font-size: x-large;
+    width: 80%;
+}

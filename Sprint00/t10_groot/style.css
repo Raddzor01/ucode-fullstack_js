@@ -1,0 +1,33 @@
+div.box:before {
+    content: "";
+    position: absolute;
+
+    top: -25px;
+    bottom: -25px;
+    right: 0;
+    left: 0;
+
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+div.box {
+    position: relative;
+    padding: 10px;
+    margin: 35px;
+    background: #d3d3d3;
+    width: calc(100vw - 200px);
+}
+
+div.box:after {
+    content: "";
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+    right: -25px;
+    left: -25px;
+
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
