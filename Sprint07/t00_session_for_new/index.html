@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A new set</title>
+</head>
+
+<body>
+    <h1>Session for new</h1>
+    <form action="/" method="POST">
+            <fieldset>
+                <legend>About HERO</legend>
+
+                <label for="name">Real Name</label>
+                <input type="text" name="name" id="name" required>
+
+                <label for="alias">Current Alias</label>
+                <input type="text" name="alias" id="alias" required>
+
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" required>
+                <br><br>
+                <label for="description">About</label>
+                <textarea name="description" id="description" cols="50" rows="8" required
+                          placeholder="Tell about yourself, max 500 symbols" maxlength="500"></textarea>
+                <br><br>
+                <label for="photo">Your photo:</label>
+                <input type="file" name="photo" id="photo" required>
+                <br><br>
+            </fieldset>
+            <fieldset>
+                <legend>Powers</legend>
+                <input type="checkbox" id="power_tel" name="power_Telekinesis">
+                <label for="power_tel">Telekinesis</label>
+                <input type="checkbox" id="power_strength" name="power_Super">
+                <label for="power_strength">Super strength or speed</label>
+                <input type="checkbox" id="power_shapeshifting" name="power_Shapeshifting">
+                <label for="power_shapeshifting">Shapeshifting</label>
+                <input type="checkbox" id="power_flight" name="power_Flight">
+                <label for="power_flight">Flight</label>
+                <input type="checkbox" id="power_elem" name="power_Elemental">
+                <label for="power_elem">Elemental control</label>
+                <input type="checkbox" id="power_other" name="power_Other">
+                <label for="power_other">Other</label>
+                <p>
+                    <label for="level">Level of control</label>
+                    <input type="range" id="level" name="level" min="0" max="10" step="1" value="1" required>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Publicity</legend>
+                <p>
+                    <input type="radio" id="pub_unknown" value="0" name="purpose">
+                    <label for="pub_unknown">UNKNOWN</label>
+
+                    <input type="radio" id="pub_ghost" value="1" name="purpose">
+                    <label for="pub_ghost">LIKE A GHOST</label>
+
+                    <input type="radio" id="pub_comics" value="2" name="purpose">
+                    <label for="pub_comics">I AM IN COMICS</label>
+
+                    <input type="radio" id="pub_fun_club" value="3" name="purpose">
+                    <label for="pub_fun_club">I HAVE FUN CLUB</label>
+
+                    <input type="radio" id="pub_superstar" value="4" name="purpose">
+                    <label for="pub_superstar">SUPERSTAR</label>
+                </p>
+            </fieldset><br>
+            <button type="reset">CLEAR</button>
+            <button type="submit">SEND</button>
+        </form>
+</body>
+
+</html>
